@@ -12,5 +12,4 @@ RSpec.describe "check_codeword method" do
   it "returns wrong if codeword is not correct or close to being correct" do
     expect(check_codeword("dog")).to eq "WRONG!"
   end
-
 end
